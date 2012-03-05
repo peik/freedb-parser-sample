@@ -1,0 +1,5 @@
+Peik	EUR	5.00
+Mikko	EUR	10.00
+Sampsa	EUR	25.50
+Pasi	%	20	4
+Peik	%	50	*
