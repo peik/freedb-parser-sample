@@ -59,6 +59,9 @@ public class Album {
 		return secs;
 	}
 
+	/**
+	 * Produce the same listing as you get on http://freedb.org
+	 */
 	/*
 	Adele / Adele 21	Details
 	Tracks: 13

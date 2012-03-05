@@ -1,0 +1,60 @@
+<tdd.musicdb.Album>
+  <title>Adele / 21</title>
+  <year>2011</year>
+  <genre>Pop</genre>
+  <discId>c00ccd0d</discId>
+  <songs>
+    <tdd.musicdb.Song>
+      <title>Rolling In The Deep</title>
+      <durationSecs>229</durationSecs>
+    </tdd.musicdb.Song>
+    <tdd.musicdb.Song>
+      <title>Rumour Has It</title>
+      <durationSecs>223</durationSecs>
+    </tdd.musicdb.Song>
+    <tdd.musicdb.Song>
+      <title>Turning Tables</title>
+      <durationSecs>250</durationSecs>
+    </tdd.musicdb.Song>
+    <tdd.musicdb.Song>
+      <title>Don&apos;t You Remember</title>
+      <durationSecs>243</durationSecs>
+    </tdd.musicdb.Song>
+    <tdd.musicdb.Song>
+      <title>Set Fire To The Rain</title>
+      <durationSecs>241</durationSecs>
+    </tdd.musicdb.Song>
+    <tdd.musicdb.Song>
+      <title>He Won&apos;t Go</title>
+      <durationSecs>277</durationSecs>
+    </tdd.musicdb.Song>
+    <tdd.musicdb.Song>
+      <title>Take It All</title>
+      <durationSecs>228</durationSecs>
+    </tdd.musicdb.Song>
+    <tdd.musicdb.Song>
+      <title>I&apos;ll Be Waiting</title>
+      <durationSecs>241</durationSecs>
+    </tdd.musicdb.Song>
+    <tdd.musicdb.Song>
+      <title>One And Only</title>
+      <durationSecs>348</durationSecs>
+    </tdd.musicdb.Song>
+    <tdd.musicdb.Song>
+      <title>Lovesong</title>
+      <durationSecs>316</durationSecs>
+    </tdd.musicdb.Song>
+    <tdd.musicdb.Song>
+      <title>Someone Like You</title>
+      <durationSecs>283</durationSecs>
+    </tdd.musicdb.Song>
+    <tdd.musicdb.Song>
+      <title>If It Hadn&apos;t Been For Love</title>
+      <durationSecs>188</durationSecs>
+    </tdd.musicdb.Song>
+    <tdd.musicdb.Song>
+      <title>Hiding My Heart</title>
+      <durationSecs>206</durationSecs>
+    </tdd.musicdb.Song>
+  </songs>
+</tdd.musicdb.Album>

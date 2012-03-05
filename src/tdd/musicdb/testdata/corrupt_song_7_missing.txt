@@ -1,0 +1,54 @@
+# xmcd
+#
+# Track frame offsets: 
+#        150
+#        17347
+#        34092
+#        52852
+#        71092
+#        89219
+#        110065
+#        127181
+#        145305
+#        171417
+#        195138
+#        216406
+#        230516
+#
+# Disc length: 3279 seconds
+#
+# Revision: 0
+# Processed by: cddbd v1.5.2PL0 Copyright (c) Steve Scherf et al.
+# Submitted via: ExactAudioCopy v0.99pb5
+#
+DISCID=c00ccd0d
+DTITLE=Adele / 21
+DYEAR=2011
+DGENRE=Pop
+TTITLE0=Rolling In The Deep
+TTITLE1=Rumour Has It
+TTITLE2=Turning Tables
+TTITLE3=Don't You Remember
+TTITLE4=Set Fire To The Rain
+TTITLE5=He Won't Go
+TTITLE6=Take It All
+TTITLE8=One And Only
+TTITLE9=Lovesong
+TTITLE10=Someone Like You
+TTITLE11=If It Hadn't Been For Love
+TTITLE12=Hiding My Heart
+EXTD=
+EXTT0=
+EXTT1=
+EXTT2=
+EXTT3=
+EXTT4=
+EXTT5=
+EXTT6=
+EXTT7=
+EXTT8=
+EXTT9=
+EXTT10=
+EXTT11=
+EXTT12=
+PLAYORDER=

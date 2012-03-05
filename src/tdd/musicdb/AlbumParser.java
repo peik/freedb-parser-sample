@@ -20,8 +20,20 @@ public class AlbumParser {
 	List<Integer> offsets = new ArrayList<Integer>();;
 	int discLengthSecs;
 
-	public AlbumParser(String filename) throws FileNotFoundException {
-		parseDataFile(filename);
+	public static AlbumParser parse(String filename)
+			throws FileNotFoundException {
+		return parse(AlbumFileFinder.getInstance(), filename);
+	}
+
+	// Visible for testing
+	static AlbumParser parse(AlbumFileFinder finder, String filename)
+			throws FileNotFoundException {
+		File file = finder.getFile(filename);
+		return new AlbumParser(file);
+	}
+
+	private AlbumParser(File file) throws FileNotFoundException {
+		parseDataFile(file);
 	}
 
 	// Visible for testing
@@ -50,8 +62,7 @@ public class AlbumParser {
 		return album;
 	}
 
-	private void parseDataFile(String filename) throws FileNotFoundException {
-		File file = AlbumFileFinder.getInstance().getFile(filename);
+	private void parseDataFile(File file) throws FileNotFoundException {
 		FileInputStream in = new FileInputStream(file);
 		Scanner scanner = new Scanner(in);
 		try {
@@ -84,14 +95,18 @@ public class AlbumParser {
 	#        17347
 	*/
 	private void parseOffsets(Scanner scanner) {
-		try {
-			while (scanner.hasNextLine()) {
-				String offsetStr = scanner.nextLine().substring(1).trim();
+		while (scanner.hasNextLine()) {
+			String offsetStr = scanner.nextLine().substring(1).trim();
+			if (offsetStr.isEmpty()) {
+				// Stop at the first empty line
+				break;
+			}
+			try {
 				Integer offset = Integer.valueOf(offsetStr);
 				offsets.add(offset);
+			} catch (NumberFormatException e) {
+				System.err.print("Unable to parse offset: " + offsetStr);
 			}
-		} catch (NumberFormatException endOfOffsets) {
-			// Stop when we find no more integer offsets
 		}
 	}
 
