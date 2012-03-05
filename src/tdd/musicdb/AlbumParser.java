@@ -29,12 +29,24 @@ public class AlbumParser {
 	}
 
 	public Album getAlbum() {
+		// Album basic data
 		Album album = new Album();
 		album.setTitle(data.get(Keys.DTITLE.toString()));
 		album.setGenre(data.get(Keys.DGENRE.toString()));
 		album.setDiscId(data.get(Keys.DISCID.toString()));
 		String year = data.get(Keys.DYEAR.toString());
-
+		try {
+			album.setYear(Integer.parseInt(year));
+		} catch (NumberFormatException e) {
+			System.err.print("Unable to parse year: " + year);
+		}
+		// Songs
+		List<Integer> songLengths = calculateSongLengths();
+		for (int i = 0; i < songLengths.size(); i++) {
+			String title = data.get(Keys.TTITLE.toString() + i);
+			Song song = new Song(title, songLengths.get(i));
+			album.addSong(song);
+		}
 		return album;
 	}
 
@@ -88,7 +100,7 @@ public class AlbumParser {
 	# Disc length: 3279 seconds
 	*/
 	private void parseDiscLength(String line) {
-		line = line.substring(Keys.Disc_length.toString().length());
+		line = line.substring(Keys.Disc_length.toString().length()).trim();
 		StringBuilder secStr = new StringBuilder();
 		for (int i = 0; i < line.length(); i++) {
 			char c = line.charAt(i);

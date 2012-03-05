@@ -33,7 +33,7 @@ public class AlbumParserTest {
 	}
 
 	@Test
-	public void testParseToListing() throws Exception {
+	public void testGetAlbum() throws Exception {
 		AlbumParser parser = new AlbumParser("c00ccd0d.txt");
 		Album album = parser.getAlbum();
 		Approvals.approve(album.getListing());

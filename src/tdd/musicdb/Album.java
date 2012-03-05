@@ -92,9 +92,10 @@ public class Album {
 		sb.append("Disc-ID: ").append(genre).append(" / ").append(discId)
 				.append(newline);
 		sb.append(newline);
+		sb.append(" ").append(newline);
 		int number = 1;
 		for (Song song : songs) {
-			sb.append(number++).append(". ").append(song.getTitle());
+			sb.append(number++).append(".\t").append(song.getTitle());
 			sb.append("\t").append(song.getDurationFormatted()).append(newline);
 		}
 		return sb.toString();
