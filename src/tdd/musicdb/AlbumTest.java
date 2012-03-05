@@ -8,8 +8,7 @@ public class AlbumTest {
 	@Test
 	public void testListing() throws Exception {
 		Album a = new Album();
-		a.setArtist(new Artist("Adele"));
-		a.setTitle("21");
+		a.setTitle("Adele / 21");
 		a.setYear(2011);
 		a.setGenre("blues");
 		a.setDiscId("a1234567");

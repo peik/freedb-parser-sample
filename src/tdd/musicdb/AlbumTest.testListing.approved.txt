@@ -2,7 +2,7 @@ Adele / 21	Details
 Tracks: 2
 Total time: 7:32
 Year: 2011
-Disc-ID: blues/a1234567
+Disc-ID: blues / a1234567
 
 1. Rolling in the Deep	3:49
 2. Rumour Has It	3:43

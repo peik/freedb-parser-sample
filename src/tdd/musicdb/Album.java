@@ -5,20 +5,11 @@ import java.util.List;
 
 public class Album {
 
-	private Artist artist;
 	private String title;
 	private int year;
 	private String genre;
 	private String discId;
 	private List<Song> songs = new ArrayList<Song>();
-
-	public Artist getArtist() {
-		return artist;
-	}
-
-	public void setArtist(Artist artist) {
-		this.artist = artist;
-	}
 
 	public String getTitle() {
 		return title;
@@ -57,9 +48,6 @@ public class Album {
 	}
 
 	public void addSong(Song song) {
-		if (song.getArtist() == null) {
-			song.setArtist(this.artist);
-		}
 		this.songs.add(song);
 	}
 
@@ -95,16 +83,13 @@ public class Album {
 	public String getListing() {
 		String newline = System.getProperty("line.separator");
 		StringBuilder sb = new StringBuilder();
-		if (artist != null) {
-			sb.append(artist).append(" / ");
-		}
 		sb.append(title).append("\t").append("Details").append(newline);
 		sb.append("Tracks: ").append(songs.size()).append(newline);
 		sb.append("Total time: ")
 				.append(Song.formatDuration(getTotalDurationSecs()))
 				.append(newline);
 		sb.append("Year: ").append(year).append(newline);
-		sb.append("Disc-ID: ").append(genre).append("/").append(discId)
+		sb.append("Disc-ID: ").append(genre).append(" / ").append(discId)
 				.append(newline);
 		sb.append(newline);
 		int number = 1;

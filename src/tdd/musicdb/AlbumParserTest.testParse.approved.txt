@@ -1,20 +1,149 @@
-Adele / 21
-Tracks: 13
-Total time: 54:33
-Year: 2011
-Disc-ID: misc / c00ccd0d
-
- 
-1.	Rolling In The Deep	3:49
-2.	Rumour Has It	3:43
-3.	Turning Tables	4:10
-4.	Don't You Remember	4:03
-5.	Set Fire To The Rain	4:01
-6.	He Won't Go	4:37
-7.	Take It All	3:48
-8.	I'll Be Waiting	4:01
-9.	One And Only	5:48
-10.	Lovesong	5:16
-11.	Someone Like You	4:43
-12.	If It Hadn't Been For Love	3:08
-13.	Hiding My Heart	3:26
+<tdd.musicdb.AlbumParser>
+  <data class="tree-map">
+    <no-comparator/>
+    <entry>
+      <string>DGENRE</string>
+      <string>Pop</string>
+    </entry>
+    <entry>
+      <string>DISCID</string>
+      <string>c00ccd0d</string>
+    </entry>
+    <entry>
+      <string>DTITLE</string>
+      <string>Adele / 21</string>
+    </entry>
+    <entry>
+      <string>DYEAR</string>
+      <string>2011</string>
+    </entry>
+    <entry>
+      <string>EXTD</string>
+      <string></string>
+    </entry>
+    <entry>
+      <string>EXTT0</string>
+      <string></string>
+    </entry>
+    <entry>
+      <string>EXTT1</string>
+      <string></string>
+    </entry>
+    <entry>
+      <string>EXTT10</string>
+      <string></string>
+    </entry>
+    <entry>
+      <string>EXTT11</string>
+      <string></string>
+    </entry>
+    <entry>
+      <string>EXTT12</string>
+      <string></string>
+    </entry>
+    <entry>
+      <string>EXTT2</string>
+      <string></string>
+    </entry>
+    <entry>
+      <string>EXTT3</string>
+      <string></string>
+    </entry>
+    <entry>
+      <string>EXTT4</string>
+      <string></string>
+    </entry>
+    <entry>
+      <string>EXTT5</string>
+      <string></string>
+    </entry>
+    <entry>
+      <string>EXTT6</string>
+      <string></string>
+    </entry>
+    <entry>
+      <string>EXTT7</string>
+      <string></string>
+    </entry>
+    <entry>
+      <string>EXTT8</string>
+      <string></string>
+    </entry>
+    <entry>
+      <string>EXTT9</string>
+      <string></string>
+    </entry>
+    <entry>
+      <string>PLAYORDER</string>
+      <string></string>
+    </entry>
+    <entry>
+      <string>TTITLE0</string>
+      <string>Rolling In The Deep</string>
+    </entry>
+    <entry>
+      <string>TTITLE1</string>
+      <string>Rumour Has It</string>
+    </entry>
+    <entry>
+      <string>TTITLE10</string>
+      <string>Someone Like You</string>
+    </entry>
+    <entry>
+      <string>TTITLE11</string>
+      <string>If It Hadn&apos;t Been For Love</string>
+    </entry>
+    <entry>
+      <string>TTITLE12</string>
+      <string>Hiding My Heart</string>
+    </entry>
+    <entry>
+      <string>TTITLE2</string>
+      <string>Turning Tables</string>
+    </entry>
+    <entry>
+      <string>TTITLE3</string>
+      <string>Don&apos;t You Remember</string>
+    </entry>
+    <entry>
+      <string>TTITLE4</string>
+      <string>Set Fire To The Rain</string>
+    </entry>
+    <entry>
+      <string>TTITLE5</string>
+      <string>He Won&apos;t Go</string>
+    </entry>
+    <entry>
+      <string>TTITLE6</string>
+      <string>Take It All</string>
+    </entry>
+    <entry>
+      <string>TTITLE7</string>
+      <string>I&apos;ll Be Waiting</string>
+    </entry>
+    <entry>
+      <string>TTITLE8</string>
+      <string>One And Only</string>
+    </entry>
+    <entry>
+      <string>TTITLE9</string>
+      <string>Lovesong</string>
+    </entry>
+  </data>
+  <offsets>
+    <int>150</int>
+    <int>17347</int>
+    <int>34092</int>
+    <int>52852</int>
+    <int>71092</int>
+    <int>89219</int>
+    <int>110065</int>
+    <int>127181</int>
+    <int>145305</int>
+    <int>171417</int>
+    <int>195138</int>
+    <int>216406</int>
+    <int>230516</int>
+  </offsets>
+  <discLengthSecs>3279</discLengthSecs>
+</tdd.musicdb.AlbumParser>

@@ -4,27 +4,12 @@ import java.text.DecimalFormat;
 
 public class Song {
 
-	private Artist artist;
 	private String title;
 	private int durationSecs;
-
-	public Song(String artist, String title, int durationSecs) {
-		this.artist = new Artist(artist);
-		this.title = title;
-		this.durationSecs = durationSecs;
-	}
 
 	public Song(String title, int durationSecs) {
 		this.title = title;
 		this.durationSecs = durationSecs;
-	}
-
-	public Artist getArtist() {
-		return artist;
-	}
-
-	public void setArtist(Artist artist) {
-		this.artist = artist;
 	}
 
 	public String getTitle() {
