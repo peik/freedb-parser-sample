@@ -6,7 +6,7 @@ import java.util.List;
 public class Album {
 
 	private String title;
-	private int year;
+	private Integer year;
 	private String genre;
 	private String discId;
 	private List<Song> songs = new ArrayList<Song>();
@@ -19,11 +19,11 @@ public class Album {
 		this.title = title;
 	}
 
-	public int getYear() {
+	public Integer getYear() {
 		return year;
 	}
 
-	public void setYear(int year) {
+	public void setYear(Integer year) {
 		this.year = year;
 	}
 
@@ -91,7 +91,9 @@ public class Album {
 		sb.append("Total time: ")
 				.append(Song.formatDuration(getTotalDurationSecs()))
 				.append(newline);
-		sb.append("Year: ").append(year).append(newline);
+		if (year != null) {
+			sb.append("Year: ").append(year).append(newline);
+		}
 		sb.append("Disc-ID: ").append(genre).append(" / ").append(discId)
 				.append(newline);
 		sb.append(newline);

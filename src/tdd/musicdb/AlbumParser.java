@@ -20,19 +20,7 @@ public class AlbumParser {
 	List<Integer> offsets = new ArrayList<Integer>();;
 	int discLengthSecs;
 
-	public static AlbumParser parse(String filename)
-			throws FileNotFoundException {
-		return parse(AlbumFileFinder.getInstance(), filename);
-	}
-
-	// Visible for testing
-	static AlbumParser parse(AlbumFileFinder finder, String filename)
-			throws FileNotFoundException {
-		File file = finder.getFile(filename);
-		return new AlbumParser(file);
-	}
-
-	private AlbumParser(File file) throws FileNotFoundException {
+	public AlbumParser(File file) throws FileNotFoundException {
 		parseDataFile(file);
 	}
 
@@ -46,11 +34,9 @@ public class AlbumParser {
 		album.setTitle(data.get(Keys.DTITLE.toString()));
 		album.setGenre(data.get(Keys.DGENRE.toString()));
 		album.setDiscId(data.get(Keys.DISCID.toString()));
-		String year = data.get(Keys.DYEAR.toString());
-		try {
-			album.setYear(Integer.parseInt(year));
-		} catch (NumberFormatException e) {
-			System.err.print("Unable to parse year: " + year);
+		Integer year = parseYear(data.get(Keys.DYEAR.toString()));
+		if (year != null) {
+			album.setYear(year);
 		}
 		// Songs
 		List<Integer> songLengths = calculateSongLengths();
@@ -60,6 +46,20 @@ public class AlbumParser {
 			album.addSong(song);
 		}
 		return album;
+	}
+
+	private Integer parseYear(String year) {
+		try {
+			if (year != null) {
+				year = year.trim();
+				if (!year.isEmpty()) {
+					return Integer.valueOf(year);
+				}
+			}
+		} catch (NumberFormatException e) {
+			System.err.println("Unable to parse year: " + year);
+		}
+		return null;
 	}
 
 	private void parseDataFile(File file) throws FileNotFoundException {
@@ -105,7 +105,7 @@ public class AlbumParser {
 				Integer offset = Integer.valueOf(offsetStr);
 				offsets.add(offset);
 			} catch (NumberFormatException e) {
-				System.err.print("Unable to parse offset: " + offsetStr);
+				System.err.println("Unable to parse offset: " + offsetStr);
 			}
 		}
 	}

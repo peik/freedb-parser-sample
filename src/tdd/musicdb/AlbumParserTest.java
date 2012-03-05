@@ -28,28 +28,30 @@ public class AlbumParserTest {
 
 	@Test
 	public void testParse() throws Exception {
-		AlbumParser parser = AlbumParser.parse("c00ccd0d.txt");
+		AlbumParser parser = AlbumFileFinder.getInstance()
+				.parse("c00ccd0d.txt");
 		Approvals.approve(new XStream().toXML(parser));
 	}
 
 	@Test
 	public void testGetAlbum() throws Exception {
-		AlbumParser parser = AlbumParser.parse("c00ccd0d.txt");
+		AlbumParser parser = AlbumFileFinder.getInstance()
+				.parse("c00ccd0d.txt");
 		Album album = parser.getAlbum();
 		Approvals.approve(new XStream().toXML(album));
 	}
 
 	@Test
 	public void testGetAlbumListing() throws Exception {
-		AlbumParser parser = AlbumParser.parse("c00ccd0d.txt");
+		AlbumParser parser = AlbumFileFinder.getInstance()
+				.parse("c00ccd0d.txt");
 		Album album = parser.getAlbum();
 		Approvals.approve(album.getListing());
 	}
 
 	@Test
 	public void testCorruptDiscLength() throws Exception {
-		AlbumParser parser = AlbumParser.parse(
-				AlbumFileFinder.getTestDataInstance(),
+		AlbumParser parser = AlbumFileFinder.getTestDataInstance().parse(
 				"corrupt_disc_length.txt");
 		Album album = parser.getAlbum();
 		Approvals.approve(album.getListing());
@@ -57,8 +59,7 @@ public class AlbumParserTest {
 
 	@Test
 	public void testCorruptOffsetInteger() throws Exception {
-		AlbumParser parser = AlbumParser.parse(
-				AlbumFileFinder.getTestDataInstance(),
+		AlbumParser parser = AlbumFileFinder.getTestDataInstance().parse(
 				"corrupt_offset_integer.txt");
 		Album album = parser.getAlbum();
 		Approvals.approve(album.getListing());
@@ -66,8 +67,7 @@ public class AlbumParserTest {
 
 	@Test
 	public void testCorruptOffsetLastLineMissing() throws Exception {
-		AlbumParser parser = AlbumParser.parse(
-				AlbumFileFinder.getTestDataInstance(),
+		AlbumParser parser = AlbumFileFinder.getTestDataInstance().parse(
 				"corrupt_offset_last_line_missing.txt");
 		Album album = parser.getAlbum();
 		Approvals.approve(album.getListing());
@@ -75,8 +75,7 @@ public class AlbumParserTest {
 
 	@Test
 	public void testCorruptSong7Missing() throws Exception {
-		AlbumParser parser = AlbumParser.parse(
-				AlbumFileFinder.getTestDataInstance(),
+		AlbumParser parser = AlbumFileFinder.getTestDataInstance().parse(
 				"corrupt_song_7_missing.txt");
 		Album album = parser.getAlbum();
 		Approvals.approve(album.getListing());
