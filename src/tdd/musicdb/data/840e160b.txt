@@ -1,0 +1,49 @@
+# xmcd
+#
+# Track frame offsets: 
+#        150
+#        20304
+#        38752
+#        59467
+#        80374
+#        118586
+#        139978
+#        160086
+#        182448
+#        227604
+#        245492
+#
+# Disc length: 3608 seconds
+#
+# Revision: 3
+# Processed by: cddbd v1.5.2PL0 Copyright (c) Steve Scherf et al.
+# Submitted via: ExactAudioCopy v0.95b4
+#
+DISCID=840e160b
+DTITLE=Nightwish / Once
+DYEAR=2004
+DGENRE=Symphonic Metal
+TTITLE0=Dark Chest Of Wonders
+TTITLE1=Wish I Had An Angel
+TTITLE2=Nemo
+TTITLE3=Planet Hell
+TTITLE4=Creek Mary's Blood
+TTITLE5=The Siren
+TTITLE6=Dead Gardens
+TTITLE7=Romanticide
+TTITLE8=Ghost Love Score
+TTITLE9=Kuolema Tekee Taiteilijan
+TTITLE10=Higher Than Hope
+EXTD= YEAR: 2004
+EXTT0=
+EXTT1=
+EXTT2=
+EXTT3=
+EXTT4=
+EXTT5=
+EXTT6=
+EXTT7=
+EXTT8=
+EXTT9=
+EXTT10=
+PLAYORDER=

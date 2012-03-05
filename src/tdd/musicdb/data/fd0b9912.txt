@@ -1,0 +1,70 @@
+# xmcd
+#
+# Track frame offsets: 
+#        150
+#        12350
+#        26028
+#        37048
+#        50798
+#        62255
+#        76475
+#        89328
+#        101703
+#        113778
+#        124675
+#        136060
+#        147100
+#        156223
+#        168975
+#        181473
+#        195565
+#        209895
+#
+# Disc length: 2971 seconds
+#
+# Revision: 0
+# Processed by: cddbd v1.5.2PL0 Copyright (c) Steve Scherf et al.
+# Submitted via: ExactAudioCopy v0.95a5
+#
+DISCID=fd0b9912
+DTITLE=Ray Charles / Ray Charles Sings The Blues
+DYEAR=1995
+DGENRE=Blues
+TTITLE0=C.C. Rider (See-See Rider Blues)
+TTITLE1=Going Down To The River
+TTITLE2=Ray Charles Blues
+TTITLE3=Someday (You're Gonna Miss Me)
+TTITLE4=How Long
+TTITLE5=Blues Is My Middle Name
+TTITLE6=Baby, Won't You Come Back Home
+TTITLE7=Rockin' Chair Blues
+TTITLE8=Goin' Down Slow
+TTITLE9=Sentimental Blues
+TTITLE10=If I Give You My Love
+TTITLE11=I Wonder Who's Kissing Her
+TTITLE12=All To Myself Alone
+TTITLE13=Falling Blues
+TTITLE14=I'm Glad For Your Sake
+TTITLE15=Walkin' And Talkin'
+TTITLE16=Baby, Let Me Hold Your Hand
+TTITLE17=Alone In The City Blues
+EXTD=
+EXTT0=
+EXTT1=
+EXTT2=
+EXTT3=
+EXTT4=
+EXTT5=
+EXTT6=
+EXTT7=
+EXTT8=
+EXTT9=
+EXTT10=
+EXTT11=
+EXTT12=
+EXTT13=
+EXTT14=
+EXTT15=
+EXTT16=
+EXTT17=
+PLAYORDER=

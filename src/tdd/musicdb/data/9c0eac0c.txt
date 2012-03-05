@@ -1,0 +1,53 @@
+# xmcd
+#
+# Track frame offsets:
+#      150
+#      18770
+#      31015
+#      58250
+#      84763
+#      120810
+#      139360
+#      168465
+#      194310
+#      209480
+#      229048
+#      260865
+# 
+# Disc length: 3758 seconds
+#
+# Revision: 4
+# Processed by: cddbd v1.5.2PL0 Copyright (c) Steve Scherf et al.
+#
+# Submitted via: FreeRIP 1.20
+#
+DISCID=9c0eac0c
+DTITLE=Mozart / The Classics: Mozart
+DYEAR=
+DGENRE=Classical
+TTITLE0=The Marriage of Figaro, Overture
+TTITLE1=Hallelujah From Exultate Jubilate
+TTITLE2=Flute Concerto in D Major, Finale
+TTITLE3=Eine Kleine Nachtmusik, 1st Movement
+TTITLE4=Violin Concerto in D Major, Last Movement
+TTITLE5=Symphony No. 35 in D Major (Haffner), Last Movement
+TTITLE6=The Magic Flute, Overture
+TTITLE7=Laudate Dominum
+TTITLE8=Rondo Alla Turka
+TTITLE9=Symphony No. 29 in A Major, 4th Movement
+TTITLE10=Horn Concerto No. 3 in E Flat Major, 1st Movement
+TTITLE11=Symphony No. 41 in C (Jupiter), 1st Movement
+EXTD=ID3G:  32
+EXTT0=
+EXTT1=
+EXTT2=
+EXTT3=
+EXTT4=
+EXTT5=
+EXTT6=
+EXTT7=
+EXTT8=
+EXTT9=
+EXTT10=
+EXTT11=
+PLAYORDER=

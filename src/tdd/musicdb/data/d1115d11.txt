@@ -1,0 +1,68 @@
+# xmcd CD database file
+# Copyright (C) 1993-1996 Ti Kan
+#
+# Track frame offsets:
+#  150
+#  18786
+#  35259
+#  53417
+#  67929
+#  85586
+#  102635
+#  121526
+#  145593
+#  164572
+#  182060
+#  199325
+#  225835
+#  244297
+#  261893
+#  285976
+#  308686
+#
+# Disc length: 4447 seconds
+#
+# Revision: 2
+# Processed by: cddbd v1.5.2PL0 Copyright (c) Steve Scherf et al.
+# Submitted via: Advanced CD Ripper Pro 2.0
+#
+DISCID=d1115d11
+DTITLE=Madonna / The Immaculate Collection
+DYEAR=2005
+DGENRE=other
+TTITLE0=Lucky Star
+TTITLE1=Borderline
+TTITLE2=Like A Virgin
+TTITLE3=Material Girl
+TTITLE4=Crazy For You
+TTITLE5=Into The Groove
+TTITLE6=Live To Tell
+TTITLE7=Papa Don't Preach
+TTITLE8=Open Your Heart
+TTITLE9=La Isla Bonita
+TTITLE10=Like A Prayer
+TTITLE11=Express Yourself
+TTITLE12=Cherish
+TTITLE13=Vogue
+TTITLE14=Justify My Love
+TTITLE15=Rescue Me
+TTITLE16=Holiday
+EXTD=
+EXTT0=
+EXTT1=
+EXTT2=
+EXTT3=
+EXTT4=
+EXTT5=
+EXTT6=
+EXTT7=
+EXTT8=
+EXTT9=
+EXTT10=
+EXTT11=
+EXTT12=
+EXTT13=
+EXTT14=
+EXTT15=
+EXTT16=
+PLAYORDER=

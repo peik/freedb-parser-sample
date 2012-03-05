@@ -1,0 +1,52 @@
+# xmcd
+#
+# Track frame offsets:
+#	150
+#	23472
+#	46167
+#	70370
+#	91277
+#	120052
+#	140210
+#	161952
+#	182280
+#	210382
+#	229455
+#	253822
+#
+# Disc length: 3702 seconds
+#
+# Revision: 1
+# Processed by: cddbd v1.5.2PL0 Copyright (c) Steve Scherf et al.
+# Submitted via: audiograbber 1.83.01
+#
+DISCID=9e0e740c
+DTITLE=Madonna / Ray of light
+DYEAR=
+DGENRE=Pop
+TTITLE0=Drowned world / substitue for love
+TTITLE1=Swim
+TTITLE2=Ray of light
+TTITLE3=Candy perfume girl
+TTITLE4=Skin
+TTITLE5=Nothing really matters
+TTITLE6=Sky fits heaven
+TTITLE7=Shanti / ashtangi
+TTITLE8=Frozen
+TTITLE9=The power of goodbye
+TTITLE10=To have and not to hold
+TTITLE11=Mer girl
+EXTD=
+EXTT0=
+EXTT1=
+EXTT2=
+EXTT3=
+EXTT4=
+EXTT5=
+EXTT6=
+EXTT7=
+EXTT8=
+EXTT9=
+EXTT10=
+EXTT11=
+PLAYORDER=

@@ -1,0 +1,49 @@
+# xmcd CD database file
+#
+# Track frame offsets:
+#	150
+#	16256
+#	23927
+#	35697
+#	52776
+#	69641
+#	85409
+#	98949
+#	115528
+#	130650
+#	145517
+#
+# Disc length: 2120 seconds
+#
+# Revision: 3
+# Processed by: cddbd v1.5.2PL0 Copyright (c) Steve Scherf et al.
+# Submitted via: CDex 1.40Release
+#
+DISCID=8608460b
+DTITLE=Van Halen / Van Halen
+DYEAR=1978
+DGENRE=Rock
+TTITLE0=Runnin' With The Devil
+TTITLE1=Eruption
+TTITLE2=You Really Got Me
+TTITLE3=Ain't Talkin' 'Bout Love
+TTITLE4=I'm The One
+TTITLE5=Jamie's Cryin'
+TTITLE6=Atomic Punk
+TTITLE7=Feel Your Love Tonight
+TTITLE8=Little Dreamer
+TTITLE9=Ice Cream Man
+TTITLE10=On Fire
+EXTD= YEAR: 1978 ID3G: 17
+EXTT0=
+EXTT1=
+EXTT2=
+EXTT3=
+EXTT4=
+EXTT5=
+EXTT6=
+EXTT7=
+EXTT8=
+EXTT9=
+EXTT10=
+PLAYORDER=

@@ -1,0 +1,26 @@
+# xmcd
+#
+# Track frame offsets:
+# 150
+# 12143
+# 31682
+#
+# Disc length: 607 seconds
+#
+#
+# Revision: 0
+# Processed by: cddbd v1.5.2PL0 Copyright (c) Steve Scherf et al.
+# Submitted via: FreeRIP 2.93 
+#
+DISCID=12025d03
+DTITLE=Ernest Ray Everett - Single CD
+DYEAR=2009
+DGENRE=Country
+TTITLE0=I'm Your Puppet
+TTITLE1=Me And Jacky
+TTITLE2=If You Don't Like Country
+EXTD=
+EXTT0=
+EXTT1=
+EXTT2=
+PLAYORDER=

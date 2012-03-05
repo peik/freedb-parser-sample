@@ -1,0 +1,43 @@
+# xmcd
+#
+# Track frame offsets: 
+#        150
+#        20750
+#        49241
+#        75773
+#        98943
+#        123694
+#        148200
+#        169497
+#        188305
+#
+# Disc length: 3067 seconds
+#
+# Revision: 2
+# Processed by: cddbd v1.5.2PL0 Copyright (c) Steve Scherf et al.
+# Submitted via: ExactAudioCopy v0.95a4
+#
+DISCID=770bf909
+DTITLE=Nightwish / Angels Fall First
+DYEAR=1997
+DGENRE=Metal
+TTITLE0=Elvenpath
+TTITLE1=Beauty and the Beast
+TTITLE2=The Carpenter
+TTITLE3=Astral Romance
+TTITLE4=Angels Fall First
+TTITLE5=Tutankhamen
+TTITLE6=Nymphomaniac Fantasia
+TTITLE7=Know Why the Nightingale Sings
+TTITLE8=Lappi (Lapland)
+EXTD=
+EXTT0=
+EXTT1=
+EXTT2=
+EXTT3=
+EXTT4=
+EXTT5=
+EXTT6=
+EXTT7=
+EXTT8=
+PLAYORDER=

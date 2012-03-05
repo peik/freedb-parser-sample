@@ -1,0 +1,4 @@
+<gregorian-calendar>
+  <time>1325368800000</time>
+  <timezone>Europe/Helsinki</timezone>
+</gregorian-calendar>

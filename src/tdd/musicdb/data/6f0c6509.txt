@@ -1,0 +1,46 @@
+# xmcd
+#
+# Track frame offsets: 
+#        183
+#        24165
+#        33360
+#        62508
+#        99350
+#        121738
+#        140745
+#        180235
+#        206995
+#
+# Disc length: 3175 seconds
+#
+# Revision: 2
+# Processed by: cddbd v1.5.2PL0 Copyright (c) Steve Scherf et al.
+# Submitted via: ExactAudioCopy v0.95a1
+#
+DISCID=6f0c6509
+DTITLE=Beethoven / Beethoven Piano Sonatas
+DYEAR=1998
+DGENRE=Classical
+TTITLE0=Sonata No. 14 in C-sharp Minor, Op. 27, No. 2 Moonlight - I. A
+TTITLE0=dagio sostenuto
+TTITLE1=II. Allegretto
+TTITLE2=III. Presto agitato
+TTITLE3=Sonata No. 8 in C Minor, Op. 13 Pathetique - I. Grove; Allegro
+TTITLE3= molto e con brio
+TTITLE4=II. Adagio contabile
+TTITLE5=III. Rondo: Allegro
+TTITLE6=Sonata No. 23 in F Minor, Op. 57 Appassionata - I. Allegro ass
+TTITLE6=ai
+TTITLE7=II. Andante con moto
+TTITLE8=III. Allegro ma non troppo; Presto
+EXTD=
+EXTT0=
+EXTT1=
+EXTT2=
+EXTT3=
+EXTT4=
+EXTT5=
+EXTT6=
+EXTT7=
+EXTT8=
+PLAYORDER=
